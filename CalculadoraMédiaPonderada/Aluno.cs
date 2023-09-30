@@ -17,6 +17,7 @@ namespace Pessoa
 
         private double notaFinal => MediaPonderada(nota1, nota2, trabalho);
         internal string Nome => nome;
+        internal int Matricula => matricula;
         internal double NotaFinal => notaFinal;
 
         /// <summary>

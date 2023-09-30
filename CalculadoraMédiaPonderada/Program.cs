@@ -160,7 +160,9 @@ internal class Program
                 if (int.TryParse(Console.ReadLine(), out int selecao) && selecao - 1 < alunos.Count)
                 {
                     Console.Clear();
-                    Console.WriteLine($"Nota final de {alunos[selecao - 1].Nome} é {alunos[selecao - 1].NotaFinal}");
+                    Console.WriteLine($"Nota final de {alunos[selecao - 1].Nome}, " +
+                                      $"matrícula: {alunos[selecao-1].Matricula} " +
+                                      $"é {alunos[selecao - 1].NotaFinal}.");
                 }
                 else
                 {
